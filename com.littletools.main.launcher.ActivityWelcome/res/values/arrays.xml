@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<!-- 快递公司对应代码 -->
+	<string-array name="ems_code">
+		<item>zhaijisong</item>
+		<item>yuantong</item>
+		<item>tiantian</item>	
+		<item>zhongtong</item>
+		<item>yunda</item>					
+		<item>aae</item>
+		<item>anjiekuaidi</item>
+		<item>anxindakuaixi</item>
+		<item>baifudongfang</item>
+		<item>biaojikuaidi</item>
+		<item>bht</item>
+		<item>cces</item>
+		<item>Coe</item>
+		<item>changyuwuliu</item>
+		<item>datianwuliu</item>
+		<item>debangwuliu</item>
+		<item>dpex</item>
+		<item>dhl</item>
+		<item>dsukuaidi</item>
+		<item>fedex</item>
+		<item>feikangda</item>
+		<item>fenghuangkuaidi</item>
+		<item>ganzhongnengda</item>
+		<item>guangdongyouzhengwuliu</item>
+		<item>huitongkuaidi</item>
+		<item>hengluwuliu</item>
+		<item>huaxialongwuliu</item>
+		<item>jiayiwuliu</item>
+		<item>jinguangsudikuaijian</item>
+		<item>jixianda</item>
+		<item>jiajiwuliu</item>
+		<item>jiayunmeiwuliu</item>
+		<item>kuaijiesudi</item>
+		<item>lianhaowuliu</item>
+		<item>longbanwuliu</item>
+		<item>minghangkuaidi</item>
+		<item>peisihuoyunkuaidi</item>
+		<item>quanchenkuaidi</item>
+		<item>quanjitong</item>
+		<item>quanritongkuaidi</item>
+		<item>quanyikuaidi</item>
+		<item>shenghuiwuliu</item>
+		<item>suer</item>
+		<item>shengfengwuliu</item>
+		<item>tiandihuayu</item>
+
+		<item>tnt</item>	
+		<item>ups</item>
+		<item>wanjiawuliu</item>
+		<item>wenjiesudi</item>
+		<item>wuyuansudi</item>
+		<item>wanxiangwuliu</item>
+		<item>xinbangwuliu</item>	
+		<item>xinfengwuliu</item>
+		<item>xingchengjibian</item>
+		<item>xinhongyukuaidi</item>
+		<item>yafengsudi</item>
+		<item>yibangwuliu</item>
+		<item>youshuwuliu</item>
+		<item>yuanchengwuliu</item>
+
+		<item>yuanweifeng</item>
+		<item>yuanzhijiecheng</item>
+		<item>yuefengwuliu</item>
+
+		<item>yuananda</item>
+		<item>yuntongkuaidi</item>
+		<item>zhongtiewuliu</item>	
+
+		<item>zhongyouwuliu</item>																			
+		
+	</string-array>
+	
+	<!-- 快递公司名称 -->
+	<string-array name="ems_company">
+		<item>请选择快递公司</item>
+		<item>宅急送</item>
+		<item>圆通速递</item>	
+		<item>天天快递</item>	
+		<item>中通速递</item>	
+		<item>韵达快运</item>			
+		<item>AAE全球专递</item>
+		<item>安捷快递</item>
+		<item>安信达快递</item>
+		<item>百福东方</item>
+		<item>彪记快递</item>
+		<item>BHT</item>
+		<item>希伊艾斯快递</item>
+		<item>中国东方（COE）</item>
+		<item>长宇物流</item>
+		<item>大田物流</item>
+		<item>德邦物流</item>
+		<item>DPEX</item>
+		<item>DHL</item>
+		<item>D速快递</item>
+		<item>fedex</item>
+		<item>飞康达物流</item>
+		<item>凤凰快递</item>
+		<item>港中能达物流</item>
+		<item>广东邮政物流</item>
+		<item>汇通快运</item>
+		<item>恒路物流</item>
+		<item>华夏龙物流</item>
+		<item>佳怡物流</item>
+		<item>京广速递</item>
+		<item>急先达</item>
+		<item>佳吉物流</item>
+		<item>加运美</item>
+		<item>快捷速递</item>
+		<item>联昊通物流</item>
+		<item>龙邦物流</item>
+		<item>民航快递</item>
+		<item>配思货运</item>
+		<item>全晨快递</item>
+		<item>全际通物流</item>
+		<item>全日通快递</item>
+		<item>全一快递</item>
+		<item>盛辉物流</item>
+		<item>速尔物流</item>
+		<item>盛丰物流</item>
+		<item>天地华宇</item>
+
+		<item>TNT</item>	
+		<item>UPS</item>
+		<item>万家物流</item>
+		<item>文捷航空速递</item>
+		<item>伍圆速递</item>
+		<item>万象物流</item>
+		<item>新邦物流</item>	
+		<item>信丰物流</item>
+		<item>星晨急便</item>
+		<item>鑫飞鸿物流快递</item>
+		<item>亚风速递</item>
+		<item>一邦速递</item>
+		<item>优速物流</item>
+		<item>远成物流</item>
+
+		<item>源伟丰快递</item>
+		<item>元智捷诚快递</item>
+		<item>越丰物流</item>
+
+		<item>源安达</item>
+		<item>运通快递</item>
+		<item>中铁快运</item>
+
+		<item>中邮物流</item>	
+	</string-array>
+		
+</resources>

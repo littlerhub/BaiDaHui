@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_vertical"
+    >
+    <!-- 在EditText中显示计算的数字 -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/lightwhite"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        >
+        <EditText
+            android:id="@+id/mEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+    		android:gravity="right"
+    		android:textSize="50sp"
+    		android:textColor="@color/black"
+    		android:background="@color/transparent"
+    		android:cursorVisible="true"
+            />
+    </LinearLayout>
+  
+    <!-- 在GridView中放置各种数字和计算按钮 -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mEditText"
+        android:layout_alignParentBottom="true"
+        >
+        <GridView
+            android:id="@+id/mGridView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="4"
+            android:horizontalSpacing="1dp"
+            android:verticalSpacing="1dp"
+        	/>
+   	</LinearLayout>
+    
+</RelativeLayout>
+

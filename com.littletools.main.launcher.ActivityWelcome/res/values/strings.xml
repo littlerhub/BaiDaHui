@@ -1,0 +1,57 @@
+<resources>
+
+    <string name="app_name">百搭汇</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">百搭汇</string>
+    <string name="label_main">百搭汇</string>
+    <string name="label_stopwatch">时间,最漫长又最短暂...</string>
+    <string name="label_compass">有它，人生才不会迷失...</string>
+    <string name="label_qrcode">其实，每个人都是一个二维码...</string>
+    <string name="label_calculator">要计算，莫算计...</string>
+    <string name="label_qrcreate">二维码</string>
+    <string name="label_search">快捷查询</string>
+    <string name="label_searchEMS">快递查询</string>
+    <string name="label_searchSize">鞋合适否？只有脚知道!</string>
+    <string name="label_about">关于我们</string>
+    <string name="label_config">设置</string>
+    <string name="toast_exit">再按一次返回键退出</string>
+    
+	<string name="stopw_btn_start">开始</string>
+	<string name="stopw_btn_mark">分记</string>
+	<string name="stopw_btn_pause">暂停</string>
+	<string name="stopw_btn_reset">重置</string>
+	
+	<string name="stopw_title_default">Let\'s Run!</string>
+	<string name="dialog_apps_title">应用列表</string>
+	
+	<string name="calculator_error">出错</string>
+	
+  	<string name="QRCreate_btn">产生QRCode条形码</string>
+  	<string name="QRCreate_noContent">内容为空噢！</string>
+  	<string name="QRCreate_editHint">写点儿什么吧...</string> 	
+  	<string name="str_button1">相机预览</string> 
+  	<string name="str_button2">关闭相机</string>
+  	<string name="str_take_picture">拍照解码</string>
+  	
+  	<string name="ems_prompt">选择快递公司</string>
+	<string name="ems_hint">请输入订单号</string>
+	<string name="ems_searching">获取快递信息</string>
+	<string name="ems_noselect">请选择快递公司</string>
+	<string name="ems_order_error">订单输入有误,只能为字母和数字</string>
+	<string name="ems_company">公    司:</string>
+	<string name="ems_order">单    号：</string>
+	<string name="ems_message">提    示：</string>
+	<string name="ems_time">时    间：</string>
+	<string name="ems_context">状    态：</string>
+	<string name="ems_tip">更多信息,请访问 快递100</string>
+	<string name="ems_fail">未能查询到信息</string>
+	
+	<string name="tip">提示</string>
+    <string name="getting">获取中,请稍后...</string>
+    <string name="get_nothing">获取失败，请重试</string>
+    <string name="xml_error">XML解析出错</string>
+    
+    <string name="ok">确定</string>
+	
+</resources>

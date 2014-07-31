@@ -1,0 +1,247 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:paddingTop="8dp"  
+	android:paddingBottom="8dp"
+	android:paddingLeft="5dp"
+	android:paddingRight="5dp"
+    >
+    <!--1、 包裹Tiles的布局是LinearLayout：水平 -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        >
+        <!--在1、下面有各有一个LiearLayout：垂直  -->
+        <!--2.1、左边LiearLayout：垂直  -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:paddingRight="5dp"
+            android:layoutAnimation="@anim/tiles_enter"
+            >
+            <RelativeLayout
+	            android:layout_width="fill_parent"
+	    		android:layout_height="fill_parent"
+	    		android:layout_weight="2"
+	    		android:background="@color/transparent"	    		
+	            >               
+                <!-- 指南针 -->
+                <ImageView
+                    android:id="@+id/tile_compass"
+                    android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent"
+ 			    	android:background="@drawable/selector_tile_click"
+ 			    	android:src="@drawable/bg_tile_compass"
+				    android:clickable="true"      
+				    android:scaleType="fitXY"             
+                    />    
+                <!-- <com.littletools.main.launcher.MyImageView
+	                    android:id="@+id/tile_compass"
+	                    android:layout_width="fill_parent"
+		    			android:layout_height="fill_parent"
+		    			android:src="@drawable/bg_tile_compass"
+	                    android:scaleType="centerInside"
+	                    android:layout_margin="2dp"	
+	                    /> -->
+            </RelativeLayout>
+            <RelativeLayout
+	            android:layout_width="fill_parent"
+	    		android:layout_height="fill_parent"
+	    		android:layout_weight="1.5"
+	    		android:background="@color/transparent"
+	    		android:paddingTop="10dp"
+	            >
+                <!-- 二维码 -->             
+                <ImageView
+                    android:id="@+id/tile_QRCode"
+                    android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent"
+ 			    	android:background="@drawable/selector_tile_click"
+ 			    	android:src="@drawable/bg_tile_qrcode"
+				    android:clickable="true"      
+				    android:scaleType="fitXY"             
+                    />                    
+                    <!-- <com.littletools.main.launcher.MyImageView
+	                    android:id="@+id/tile_QRCode"
+	                    android:layout_width="fill_parent"
+		    			android:layout_height="fill_parent"
+		    			android:src="@drawable/bg_tile_qrcode"
+	                    android:scaleType="fitStart"
+	                    android:layout_margin="2dp"	
+	                    /> -->
+            </RelativeLayout>
+            <RelativeLayout
+	            android:layout_width="fill_parent"
+	    		android:layout_height="fill_parent"
+	    		android:layout_weight="2"
+	    		android:background="@color/transparent"
+	    		android:paddingTop="10dp"
+	            >
+                <!-- 计算器 -->           
+                <ImageView
+                    android:id="@+id/tile_calculator"
+                    android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent"	 
+			    	android:background="@drawable/selector_tile_click"
+			    	android:src="@drawable/bg_tile_calculator"
+				    android:clickable="true"	    
+				    android:scaleType="fitXY"			   			
+                    />
+                   <!-- <com.littletools.main.launcher.MyImageView
+	                    android:id="@+id/tile_calculator"
+	                    android:layout_width="fill_parent"
+		    			android:layout_height="fill_parent"
+		    			android:src="@drawable/bg_tile_calculator"
+	                    android:scaleType="centerInside"
+	                    android:layout_margin="2dp"	
+	                    /> -->
+            </RelativeLayout>
+        </LinearLayout>
+        
+        
+        <!--2.2、右边LiearLayout：垂直  -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:layoutAnimation="@anim/tiles_enter"
+            >
+            <RelativeLayout
+	            android:layout_width="fill_parent"
+	    		android:layout_height="fill_parent"
+	    		android:layout_weight="1.8"
+	    		android:background="@color/transparent"
+	            >
+                <!-- 秒表 -->               
+                <ImageView
+                    android:id="@+id/tile_stopwatch"
+                    android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent"
+			    	android:background="@drawable/selector_tile_click"
+			    	android:src="@drawable/bg_tile_stopwatch"
+				    android:clickable="true"	  
+				    android:scaleType="fitXY"  			
+                    />
+                <!-- <com.littletools.main.launcher.MyImageView
+                    android:id="@+id/tile_stopwatch"
+                    android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent"
+	    			android:src="@drawable/bg_tile_stopwatch"
+                    android:scaleType="centerInside"
+                    android:layout_margin="2dp"	
+                    /> -->
+            </RelativeLayout>
+            <RelativeLayout
+	            android:layout_width="fill_parent"
+	    		android:layout_height="fill_parent"
+	    		android:layout_weight="2"
+	    		android:layout_marginTop="10dp"
+	    		android:background="@color/transparent"
+	            >
+                <!-- 查询 --> 
+                <ImageView
+                    android:id="@+id/tile_quickSearch"
+                    android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent"
+			    	android:background="@drawable/selector_tile_click"
+			    	android:src="@drawable/bg_tile_search"
+				    android:clickable="true"	  
+				    android:scaleType="fitXY"  			
+                    />          
+                <!-- <com.littletools.main.launcher.MyImageView
+                    android:id="@+id/tile_quickSearch"
+                    android:layout_width="fill_parent"
+	    			android:layout_height="fill_parent"
+	    			android:src="@drawable/bg_tile_search"
+                    android:scaleType="centerInside"
+                    android:layout_margin="2dp"	
+                    /> -->
+            </RelativeLayout>
+            <!-- 右下角的布局 -->
+            <LinearLayout
+                android:orientation="vertical"
+	            android:layout_width="fill_parent"
+	    		android:layout_height="fill_parent"
+	    		android:layout_weight="1.8"
+	            >
+				<LinearLayout
+		            android:layout_width="fill_parent"
+		    		android:layout_height="fill_parent"
+		    		android:layout_weight="1"
+			    	android:paddingTop="10dp"		    		
+		            >
+					<RelativeLayout
+			            android:layout_width="fill_parent"
+			    		android:layout_height="fill_parent"
+			    		android:layout_weight="1"
+			    		android:background="@color/purple"
+			            >
+		                <ImageView
+		                    android:id="@+id/iv_config"
+		                    android:layout_width="fill_parent"
+			    			android:layout_height="fill_parent"
+			    			android:layout_centerInParent="true"	
+			    			android:scaleType="centerInside"
+			    			android:background="@drawable/selector_tile_click"
+				    		android:clickable="true"		
+				    		android:src="@drawable/ic_tile_config"	    				    			
+		                    />		                
+            		</RelativeLayout>
+            		<RelativeLayout
+            		    android:layout_width="fill_parent"
+				    	android:layout_height="fill_parent"
+				    	android:layout_weight="1"
+				    	android:layout_marginLeft="5dp"
+				    	android:background="@color/purple"
+				        >
+		                <ImageView
+		                    android:id="@+id/iv_about"
+		                    android:layout_width="fill_parent"
+				    		android:layout_height="fill_parent"
+				    		android:background="@drawable/selector_tile_click"
+				    		android:clickable="true"
+				    		android:src="@drawable/ic_tile_about"
+				    		android:scaleType="centerInside"
+			                />
+            		</RelativeLayout>
+	            </LinearLayout>
+	            <LinearLayout
+		            android:layout_width="fill_parent"
+		    		android:layout_height="fill_parent"
+		    		android:layout_weight="1"
+		    		android:paddingTop="5dp"
+		            >
+					<RelativeLayout
+			            android:layout_width="fill_parent"
+			    		android:layout_height="fill_parent"
+			    		android:background="@color/green"			    		
+			    		android:layout_gravity="center"
+			    		android:gravity="center"
+			            >
+		                <ImageView
+		                    android:id="@+id/iv_pop"
+		                    android:layout_width="fill_parent"
+			    			android:layout_height="fill_parent"
+			    			android:background="@drawable/selector_tile_click"
+			    			android:scaleType="centerInside"
+				    		android:clickable="true"
+				    		android:src="@drawable/ic_pop"
+				    		android:layout_centerInParent="true"
+		                    />		                		                
+            		</RelativeLayout>
+	            </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+    
+    
+</RelativeLayout>
+

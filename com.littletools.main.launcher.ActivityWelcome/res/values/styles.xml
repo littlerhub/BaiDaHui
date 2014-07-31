@@ -1,0 +1,17 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+	<style name="Theme.Dialog" parent="android:style/Theme.Dialog">
+		<item name="android:windowBackground">@drawable/style_shape_block</item>
+	</style>
+	
+	<style name="DialogColorStyle" 
+	    parent="@android:style/Theme.Dialog">
+        <!-- 更换背景图片实现全透明 -->
+        <item name="android:windowBackground">@color/transparent</item>
+        <!-- 屏幕背景变暗 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 没有标题栏 -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

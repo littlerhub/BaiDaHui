@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"         
+    >
+    <PreferenceCategory 
+        android:title="应用推荐"     
+        >
+        <Preference 
+            android:key="pref_apps1"
+            android:title="吐血推荐"
+            android:layout="@layout/item_preference_apps"
+            />
+        <Preference 
+            android:key="pref_apps2"
+            android:title="百搭推荐"
+            android:layout="@layout/item_preference_apps"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>

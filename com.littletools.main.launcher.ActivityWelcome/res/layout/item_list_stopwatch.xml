@@ -1,0 +1,21 @@
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  >
+  	<TextView 
+  	    android:id="@+id/tv_markNo"
+  		android:layout_width="90dp"
+  		android:layout_height="wrap_content"
+  		android:textColor="@color/lightgray"
+  		android:textSize="18sp"
+  		android:paddingLeft="20dp"
+  		/>
+  	<TextView 
+  	    android:id="@+id/tv_markTime"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:textColor="@color/white"
+  		android:textSize="25sp"
+  		/>
+</LinearLayout>
